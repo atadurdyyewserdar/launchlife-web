@@ -1,0 +1,147 @@
+.registration_pages {
+  width: 100%;
+  height: 100vh;
+  @include flexBox(space-between, center);
+  .left {
+    width: 50%;
+    height: 100vh;
+    background: #222831;
+
+    img {
+      width: 600px;
+      height: 590px;
+    }
+  }
+
+  .right {
+    width: 50%;
+    height: 100vh;
+
+    .btn {
+      @include flexBox(space-between, center);
+      .btn_w {
+        width: 360px;
+        height: 60px;
+        border: 1px solid #484848;
+        box-shadow: inset 0px -3px 3px rgba(0, 0, 0, 0.25);
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 33px;
+        text-decoration-line: underline;
+        color: #00adb5;
+      }
+
+      .btn_b {
+        width: 360px;
+        height: 60px;
+        background: #393e46;
+        box-shadow: inset 0px -3px 3px rgba(0, 0, 0, 0.25);
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 33px;
+        color: #eeeeee;
+      }
+    }
+    h1 {
+      @include flexBox(center, center);
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 40px;
+      color: #222831;
+      padding: 20px;
+    }
+    .form {
+      .input {
+        @include flexBox(center, center);
+        flex-direction: column;
+        label {
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 27px;
+          color: #565656;
+          padding-right: 200px;
+        }
+        .password {
+          padding-right: 250px;
+        }
+        input {
+          width: 350px;
+          height: 40px;
+          background: #ffffff;
+          border: 1px solid #bbbbbb;
+          border-radius: 5px;
+        }
+      }
+
+      .input1 {
+        @include flexBox(center, center);
+        padding: 20px;
+
+        label {
+          padding: 10px 10px 10px 2px;
+        }
+
+        a {
+          padding: 10px;
+          text-decoration: none;
+        }
+      }
+
+      .btn {
+        @include flexBox(center, center);
+
+        .btn_blue {
+          width: 270px;
+          height: 50px;
+          border-radius: 5px;
+          background-color: #00adb5;
+          color: white;
+        }
+      }
+    }
+
+    .div_main {
+      @include flexBox(center, center);
+      padding-top: 20px;
+      .div {
+        width: 157.08px;
+        height: 0px;
+        border-bottom: 2px solid black;
+      }
+      span {
+        padding: 10px;
+      }
+    }
+
+    .google {
+      @include flexBox(center, center);
+      button {
+        width: 350px;
+        height: 40px;
+        border: 1px solid #d9d9d9;
+        border-radius: 6px;
+      }
+    }
+
+    .btn1 {
+      @include flexBox(center, center);
+      .linkedin {
+        margin: 10px;
+        @include flexBox(center, center);
+        width: 168.24px;
+        height: 40px;
+        background: #5ab0ef;
+        border-radius: 6px;
+      }
+      
+      .face_book {
+        @include flexBox(center, center);
+        margin: 10px;
+        width: 168.24px;
+        height: 40px;
+        background: #5d88de;
+        border-radius: 6px;
+      }
+    }
+  }
+}

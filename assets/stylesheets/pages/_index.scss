@@ -1,0 +1,59 @@
+.home {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+
+  .div {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    @include flexBox(space-between, center);
+    .div1 {
+      width: 497px;
+      height: 517px;
+    }
+    .div2 {
+      width: 1050px;
+      height: 600px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      margin-bottom: 20px;
+    }
+  }
+  // .hooper {
+  //   width: 100%;
+  //   height: 100vh;
+  //   position: relative;
+
+  //   img {
+  //     position: absolute;
+  //     z-index: 1;
+  //     width: 262.53px;
+  //     height: 262.53px;
+  //     top: 90px;
+  //     left: 30px;
+  //     // left: 320px;
+  //   }
+
+  //   .slider1 {
+  //     position: absolute;
+  //     width: 100%;
+  //     height: 100%;
+  //     background: url("./../images/6.jpg") no-repeat;
+  //     background-size: 100% 100%;
+  //   }
+  //   .slider2 {
+  //     width: 100%;
+  //     height: 100%;
+  //     background: url("./../images/7.jpg") no-repeat;
+  //     background-size: cover;
+  //   }
+  //   .slider3 {
+  //     width: 100%;
+  //     height: 100%;
+  //     background: url("./../images/8.jpg") no-repeat;
+  //     background-size: cover;
+  //   }
+  // }
+}
